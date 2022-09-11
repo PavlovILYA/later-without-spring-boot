@@ -21,4 +21,9 @@ public class UserController {
         return userService.saveUser(user);
     }
 
+    @GetMapping("/{userId}")
+    public User getUser(@PathVariable("userId") Long userId) {
+        return userService.getUserById(userId);
+    }
+
 }

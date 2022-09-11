@@ -1,19 +1,25 @@
 package ru.practicum.laterwithoutspringboot.item;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import ru.practicum.laterwithoutspringboot.user.User;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Data
 @Entity
 @Table(name = "items")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Item {
     @Id
-    private long id;
-    @Column(name = "user_id")
-    private long userId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @ManyToOne
+    @JoinColumn(table = "items", name = "user_id")
+    @JsonIgnore
+    private User user;
     private String url;
 }
