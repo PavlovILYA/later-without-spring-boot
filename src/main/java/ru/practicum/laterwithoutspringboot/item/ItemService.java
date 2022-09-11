@@ -1,4 +1,4 @@
-package ru.practicum.item;
+package ru.practicum.laterwithoutspringboot.item;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ru.practicum.exception;
+package ru.practicum.laterwithoutspringboot.exception;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException() {

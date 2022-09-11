@@ -1,4 +1,4 @@
-package ru.practicum;
+package ru.practicum.laterwithoutspringboot;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

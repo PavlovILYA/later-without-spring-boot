@@ -1,9 +1,9 @@
-package ru.practicum.item;
+package ru.practicum.laterwithoutspringboot.item;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import ru.practicum.IdGenerator;
-import ru.practicum.exception.UserNotFoundException;
+import ru.practicum.laterwithoutspringboot.IdGenerator;
+import ru.practicum.laterwithoutspringboot.exception.UserNotFoundException;
 
 import java.util.ArrayList;
 import java.util.HashMap;

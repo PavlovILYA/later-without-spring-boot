@@ -1,4 +1,4 @@
-package ru.practicum;
+package ru.practicum.laterwithoutspringboot;
 
 import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;

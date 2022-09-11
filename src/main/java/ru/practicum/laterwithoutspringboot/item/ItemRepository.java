@@ -1,7 +1,6 @@
-package ru.practicum.item;
+package ru.practicum.laterwithoutspringboot.item;
 
 import java.util.List;
-import java.util.Map;
 
 public interface ItemRepository {
     Item save(Item item);

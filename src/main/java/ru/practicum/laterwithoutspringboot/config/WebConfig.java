@@ -1,4 +1,4 @@
-package ru.practicum.config;
+package ru.practicum.laterwithoutspringboot.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

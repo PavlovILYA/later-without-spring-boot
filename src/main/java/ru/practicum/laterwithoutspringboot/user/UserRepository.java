@@ -1,4 +1,4 @@
-package ru.practicum.user;
+package ru.practicum.laterwithoutspringboot.user;
 
 import java.util.List;
 import java.util.Optional;
