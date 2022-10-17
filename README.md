@@ -1,4 +1,4 @@
-# spring-without-boot
+# spring-without-spring-boot
 
 Небольшое web-приложение, для сохранения полезных ссылок на потом.
 
